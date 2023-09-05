@@ -1,0 +1,11 @@
+.topnav{
+    display: flex;
+}
+.a{
+    text-align: left;
+    width: 100%;
+    background-color: grey;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+}

@@ -1,0 +1,42 @@
+.SelectOption {
+    font-family: Arial, sans-serif;
+  }
+  
+  .SelectOption p {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .Options {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .Option {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 50%; /* Make it a circle */
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  
+  
+  .selected {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+  }
+  
+  .Circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px; /* Adjust the size of the circle as needed */
+    height: 12px;
+    border-radius: 50%;
+    background-color: #007bff;
+  }
+  
